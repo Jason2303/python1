@@ -1,29 +1,8 @@
-This Python script performs encryption and decryption using the classic Caesar Cipher technique. It shifts each letter in the plaintext by a fixed number of positions, creating a simple but effective method of securing messages that are inputed into the code.
+These are a collection of projects I worked on utilizing my knowledge in Python and networking
 
- Features
-- Encrypts any alphabetic string using a key (shift value)
-- Decrypts encoded messages back to plaintext
-- Handles both uppercase and lowercase letters
-- Ignores non-alphabet characters (punctuation, numbers)
-
-How to run the code:
-Run the script:
-python caesercipher.py
-
-Sample usage:
-encrypt("HelloWorld", 3)   # ➝ "KhoorZruog"
-decrypt("KhoorZruog", 3)   # ➝ "HelloWorld"
-
-📂 Folder Structure
-caesercipher/
-│
-├── caesercipher.py        # Main encryption/decryption script
-├── README.md              # Project overview and instructions
-
-
-
-Technologies
-- Python 3
-- GitHub for version control
-- Basic cryptographic concepts
+Projects include:
+- **Caesar Cipher**: Simple script for encrypting and decrypting text using Caesar cipher.
+- **Password Manager**: Utilizing tkinter for a GUI that takes in emails and provides a hashed password for the user.
+- **Traffic Analyzer**: Analyzes network traffic logs for suspicious patterns.
+- **Vuln Hunt**: Automates the process of scanning for known software vulnerabilities.
 
